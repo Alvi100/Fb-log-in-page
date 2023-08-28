@@ -1,0 +1,153 @@
+body{
+    margin:-20px 0;
+    padding:0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.header p{
+    color: #4b618d;
+    background-color: #fefbe2;
+    padding:15px;
+}
+
+.logo h2{
+    text-align: center;
+    color: #1878f3;
+    margin: 0;
+    
+}
+
+.submit{
+    text-align: center;
+    margin: 8px 0;
+}
+
+
+input{
+    width: 90%;
+  padding: 13px 20px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+#text:hover{
+    outline: 0.3px solid black;
+}
+
+#login{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:8px 0;
+    margin:5px 0;
+    background-color: #1878f3;
+    
+}
+input:hover{
+    border-color: black;
+}
+
+.forget{
+    text-align: center;
+}
+.forget a{
+    color:#1878f3;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.style{
+    text-align: center;
+    height: 0.9px;
+    margin-top:20px ;
+}
+
+.style:before{
+    content: " ";
+    display: block;
+    height: 1px;
+    width :140px;
+    position: absolute;
+    top:310px;
+    right:20px;
+    background-color:rgba(0,0,0,0.2) ;
+}
+
+.style:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width :140px;
+    position: absolute;
+    top:310px;
+    left:20px;
+    background-color:rgba(0,0,0,0.2) ;
+}
+
+.create{
+    text-align: center;
+    margin: 30px 40px;
+}
+
+#new{
+    color: white;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 500;
+    padding:10px 0;
+    margin:5px 0;
+    background-color: #36a421;
+    border:1px solid white;
+    border-radius:4px ;
+    }
+    
+#new a{
+   color:white;
+   text-decoration: none;
+}
+
+.lang{
+    width: 100%;
+    height: 90px;
+    margin-top: 60px;
+    font-size: 12px;
+    line-height: 1.5;
+    display: inline-block;
+   
+}
+
+.left{
+   width: 50%;
+   height: 50px;
+   color:#4b618d;
+   text-align: center;
+   display:inline-block;  
+   position: relative;
+}
+
+.right{
+   width: 50%;
+   height: 50px;
+   color:#4b618d;
+   text-align: center;
+   float: right;  
+}
+
+.ftr{
+    text-align: center;
+    font-size: 10px;
+    color: #4b618d;
+    margin-top:-20px;
+ }     
+
+#big{
+    
+    font-size: 15px;
+  }
